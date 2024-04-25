@@ -1,8 +1,8 @@
 from django.contrib import admin
-from menuinicial.models import funcionario, gerente,Usuario, Livro, Emprestimo
+from menuinicial.models import Funcionario,Gerente,Usuario, Livro, Emprestimo
 
-admin.site.register(funcionario)
-admin.site.register(gerente)
+admin.site.register(Funcionario)
+admin.site.register(Gerente)
 admin.site.register(Usuario)
 admin.site.register(Livro)
 admin.site.register(Emprestimo)
